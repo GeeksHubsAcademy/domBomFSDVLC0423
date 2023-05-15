@@ -1,0 +1,37 @@
+
+#boton {
+
+    height: 3em;
+    width: 3em;
+
+    border-radius: 1em;
+
+    transition: 0.2s;
+    background-color: crimson;
+
+    color:white;
+    cursor: pointer;
+}
+
+#boton:hover {
+
+    transition: 0.2s;
+    background-color: darkred;
+}
+
+.contenedor {
+
+    height: 6em;
+    width: 6em;
+
+    background-color: darkcyan;
+
+    transition: 0.2s;
+    margin: 1em;
+}
+
+.cercle {
+
+    transition: 0.2s;
+    border-radius: 50%;
+}
