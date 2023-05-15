@@ -35,3 +35,7 @@
     transition: 0.2s;
     border-radius: 50%;
 }
+
+.color2 {
+    background-color: yellow;
+}

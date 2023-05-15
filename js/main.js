@@ -86,9 +86,11 @@ let arrayContenedores = Array.from(contenedores);
 // console.log(arrayContenedores);
 
 arrayContenedores.map(
-    elementoDentroDelArray => {
+    (elementoDentroDelArray, i) => {
 
-        console.log(elementoDentroDelArray)
+        if(i % 2 != 0){
+            elementoDentroDelArray.classList.add("color2");
+        }
 
         elementoDentroDelArray.addEventListener("mouseover", ()=> {
             elementoDentroDelArray.classList.add("cercle");
